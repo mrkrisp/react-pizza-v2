@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { changePage } from '../../redux/slices/filterSlice'
 
 
-function Pagination({pageCount}) {
+const Pagination = ({pageCount}) => {
   const dispatch = useDispatch()
   const currentPage = useSelector(state => state.filter.currentPage)
 	return (

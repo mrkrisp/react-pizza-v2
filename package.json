@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@custom-react-hooks/use-update-effect": "^1.5.1",
     "@reduxjs/toolkit": "^2.11.2",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
@@ -10,6 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.13.2",
     "lodash.debounce": "^4.0.8",
+    "qs": "^6.14.1",
     "react": "^19.2.3",
     "react-content-loader": "^7.1.1",
     "react-dom": "^19.2.3",

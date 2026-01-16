@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 import pizzaLogo from '../assets/images/pizza-logo.svg'
 import Search from './Search/Search'
 
-function Header({ searchValue, setSearchValue }) {
+function Header() {
 	return (
 		<div className="header">
 			<div className="container">
-				<Link to="/">
+				<a href="/">
 					<div className="header__logo">
 						<img
 							width="38"
@@ -19,11 +19,8 @@ function Header({ searchValue, setSearchValue }) {
 							<p>самая вкусная пицца во вселенной</p>
 						</div>
 					</div>
-				</Link>
-				<Search
-					searchValue={searchValue}
-					setSearchValue={setSearchValue}
-				/>
+				</a>
+				<Search />
 				<div className="header__cart">
 					<Link
 						to="/cart"
