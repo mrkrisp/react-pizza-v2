@@ -46,7 +46,7 @@ function Home() {
 		const queryString = qs.stringify({
 			categoryId,
 			sortProperty,
-			currentPage,					
+			currentPage,
 			orderType
 		})
 		navigate(`?${queryString}`)
@@ -97,6 +97,7 @@ function Home() {
 						: pizzas.map(pizza => (
 								<PizzaBlock
 									key={pizza.id}
+									id={pizza.id}
 									title={pizza.title}
 									price={pizza.price}
 									sizes={pizza.sizes}
