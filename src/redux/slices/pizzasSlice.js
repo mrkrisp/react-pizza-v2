@@ -2,7 +2,11 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
 import axios from 'axios'
 
 const initialState = {
+<<<<<<< HEAD
   items: [],
+=======
+  pizzas: [],
+>>>>>>> 88181b3a07ef29fc1b7b6bfaae73a010e957d8be
   status: 'loading', // loading | success | error
 }
 

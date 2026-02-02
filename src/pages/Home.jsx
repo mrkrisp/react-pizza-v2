@@ -19,7 +19,7 @@ function Home() {
     useSelector(filterSelector)
 
   const sortProperty = sort.sortProperty
-  const { items:  pizzas, status } = useSelector(pizzasDataSelector)
+  const { items: pizzas, status } = useSelector(pizzasDataSelector)
 
   const getPizzas = () => {
     const category = categoryId > 0 ? `&category=${categoryId}` : ''
